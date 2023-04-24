@@ -18,6 +18,7 @@ from database.ia_filterdb import Media, get_file_details, get_search_results
 from database.lazy_utils import progress_for_pyrogram, convert, humanbytes
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
+from plugins.group_filter import global_filters
 import os 
 import humanize
 from PIL import Image
